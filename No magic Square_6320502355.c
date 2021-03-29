@@ -25,4 +25,5 @@ int main()
             scanf("%d",&c[m][n]);
         }
     }
+
 }
