@@ -7,6 +7,7 @@ int main()
     while(x>0)
     {
         k=x%10;
+        l=k;
         x=x/10;
         if(k==b)
             break;
@@ -21,7 +22,7 @@ int main()
         x=x/10;
         p=x%10;
 
-        if(p<b&&z>b)
+        if(p<b&&z>b&&p!=z)
         {
            printf("%d",(10-z)+a);
         }
