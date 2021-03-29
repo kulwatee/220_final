@@ -18,8 +18,9 @@ int main()
     {
         if(y[k]>max)
         {
-            max=y[k];
+            max=k;
         }
+        //if(y[k]=max)
     }
     printf("%d",max);
 
