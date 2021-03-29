@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,k=0,x,z;
+    int a,b,k=0,x,z,p;
     scanf("%d %d",&a,&b);
     x=a;
     while(x>0)
@@ -18,7 +18,14 @@ int main()
     {
         x=a;
         z=x%10;
-        if(z>b)
+        x=x/10;
+        p=x%10;
+
+        if(p<b&&z>b)
+        {
+           printf("%d",(10-z)+a);
+        }
+        else if(z>b)
         {
           printf("%d",a+((b+10)-z));
         }
