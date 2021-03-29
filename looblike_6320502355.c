@@ -22,11 +22,11 @@ int main()
         }
 
     }
-    //printf("%d",max);
+   // printf("%d\n",max);
     for(m=1; m<10000; m++)
     {
         if(max==y[m])
-            printf("%d",m);
+            printf("%d ",m);
     }
 
 
